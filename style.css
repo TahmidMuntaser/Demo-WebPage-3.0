@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image:linear-gradient(
+        rgba(123, 106, 106, 0.459),
+        rgba(255, 255, 255, 0)
+    ),url("brown_white_dog_is_lying_down_on_stone_in_sunlight_background_hd_dog-1920x1080.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(19, 19, 19);
+    font-family: 'Caveat', cursive;
+
+}
+
+span{
+    color: rgb(246, 88, 31);
+    
+}
+
+.navbar{
+ display: flex;   
+}
+
+.navbar a{
+    color: white;
+    font-size: 20 px;
+    font-weight: 500;
+    padding: 3px;
+    margin: 0 22px;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+
+.navbar a:hover{
+    color: orangered;
+    border-bottom: 2px solid red;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.icon i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 50px;
+    background: rgba(244, 65, 10, 0.846);
+    color: #ffff;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(41, 39, 39);
+    font-size: 20px;
+    transition: all .5s ease;
+}
+
+.icon i:hover{
+    border: 1px solid rgb(255, 254, 254);
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+
+}   
+
+
+.main, .main-btn{
+
+    position: relative;
+    top: 40%;    
+    left: 10%;
+    color: white;
+    
+}
+
+.main h4{
+    margin: 15px 0;
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.main h1{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+p{
+    letter-spacing: 2px;
+}
